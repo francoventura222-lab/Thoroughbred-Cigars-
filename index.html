@@ -87,6 +87,25 @@
             padding: 20px;
             border: 1px solid #A65A38; /* Whiskey brown border for items */
         }
+        /* New styles for Team section grid layout */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            text-align: center;
+        }
+        .team-item {
+            background: #2c2c2c;
+            padding: 15px;
+            border: 1px solid #DAA520;
+        }
+        .team-item h3 {
+            margin-bottom: 5px;
+        }
+        .team-item p {
+            font-size: 0.9em;
+        }
+
         footer {
             background: #000;
             text-align: center;
@@ -116,6 +135,9 @@
             <ul>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#cigars">Our Cigars</a></li>
+                <li><a href="#value">Value Prop</a></li>
+                <li><a href="#supply-chain">Supply Chain</a></li>
+                <li><a href="#team">Our Team</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -136,7 +158,7 @@
             
             <!-- HYPERLINK UPDATED HERE -->
             <p style="margin-top: 20px;">
-                <a href="https://luky-my.sharepoint.com/:p:/r/personal/gmha252_uky_edu/_layouts/15/Doc.aspx?sourcedoc=%7B4B9EF908-8F76-49A1-A676-12D8AC054265%7D&file=Team%201%20Presentation%20Notes.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1&wdOrigin=APPHOME-WEB.DIRECT%2CAPPHOME-WEB.FILEBROWSER.RECENT&wdPreviousSession=e0201c79-28df-42d2-bdd1-9ff4ec592400&wdPreviousSessionSrc=AppHomeWeb&ct=1764780740899" target="_blank" rel="noopener noreferrer">View the full presentation notes for this project (requires access)</a>
+                <a href="https://luky-my.sharepoint.com/:p:/r/personal/gmha252_uky_edu/_layouts/15/Doc.aspx?sourcedoc=%7BDBD7ED26-C6A5-4BCA-BBA3-440E965BF849%7D&file=Final%20Presentation.pptx&fromShare=true&action=edit&mobileredirect=true" target="_blank" rel="noopener noreferrer">View the full presentation notes for this project (requires access)</a>
             </p>
         </section>
 
@@ -182,6 +204,106 @@
             
             <p style="text-align: center; margin-top: 20px;"><em>Our target market is local to Kentucky, focusing on horse races (Keeneland, Derby) and country clubs.</em></p>
         </section>
+
+        <!-- Value Proposition Section (New) -->
+        <section id="value">
+            <h2>Our Value Proposition</h2>
+            <div class="cigar-grid">
+                <div class="cigar-item">
+                    <h3>Effectiveness</h3>
+                    <ul>
+                        <li>Consistent Quality Control</li>
+                        <li>High delivery reliability</li>
+                    </ul>
+                </div>
+                <div class="cigar-item">
+                    <h3>Efficiency</h3>
+                    <ul>
+                        <li>Local tobacco leaf sourcing</li>
+                        <li>Optimized batch sizes (freshness)</li>
+                    </ul>
+                </div>
+                <div class="cigar-item">
+                    <h3>Relevancy</h3>
+                    <ul>
+                        <li>Kentucky-themed flavors</li>
+                        <li>High-end/luxury branding</li>
+                    </ul>
+                </div>
+                <div class="cigar-item">
+                    <h3>Sustainability</h3>
+                    <ul>
+                        <li>Ethical global sourcing</li>
+                        <li>Waste reduction strategies</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Supply Chain & Sourcing Section (New) -->
+        <section id="supply-chain">
+            <h2>Supply Chain & Sourcing Summary</h2>
+            <p>Our operation balances local efficiency with high-quality global sourcing.</p>
+            
+            <h3>Key Sourcing Points</h3>
+            <ul>
+                <li><strong>Local Tobacco Leaf:</strong> Sourced from Farmers Tobacco Co. of Cynthiana, Kentucky.</li>
+                <li><strong>Binder:</strong> Acquired from the Dominican Republic (Santiago region).</li>
+                <li><strong>Wrappers:</strong> Sourced from Nicaragua (Estelí and Jalapa farms).</li>
+                <li><strong>Flavoring:</strong> Flavoring agents from various US suppliers (Amoretti, LorAnn, etc.) are infused into the cigars in a sealed environment or sprayed during production.</li>
+                <li><strong>Manufacturing:</strong> All final manufacturing and aging occurs in our Lexington, KY plant.</li>
+            </ul>
+        </section>
+
+         <!-- Our Team Section (Updated with full list) -->
+         <section id="team">
+            <h2>Our Team (Organizational Chart)</h2>
+            <div class="team-grid">
+                <div class="team-item">
+                    <h3>Gaby Hayes</h3>
+                    <p>Chief Supply Chain Officer</p>
+                </div>
+                <div class="team-item">
+                    <h3>Harriet Kinuthia</h3>
+                    <p>Chief Marketing Officer</p>
+                </div>
+                <div class="team-item">
+                    <h3>Clayton Cox</h3>
+                    <p>VP Global Operations and Compliance</p>
+                </div>
+                <div class="team-item">
+                    <h3>Kevin Heflin</h3>
+                    <p>VP Integrated Operations Planning</p>
+                </div>
+                 <div class="team-item">
+                    <h3>Christabel Ndwiga</h3>
+                    <p>VP Procurement and Manufacturing</p>
+                </div>
+                <div class="team-item">
+                    <h3>Melissa Masakure</h3>
+                    <p>Director of Strategic Partnerships</p>
+                </div>
+                <div class="team-item">
+                    <h3>Franco Ventura</h3>
+                    <p>Director of Supply Chain Performance and Analytics</p>
+                </div>
+                <div class="team-item">
+                    <h3>Logan Clark</h3>
+                    <p>Director of Transportation & Logistics</p>
+                </div>
+                <div class="team-item">
+                    <h3>Azariah Abdullah-Shabazz</h3>
+                    <p>Director of Distribution & Fulfillment</p>
+                </div>
+                <div class="team-item">
+                    <h3>Glen Butler</h3>
+                    <p>Inventory Control Manager</p>
+                </div>
+            </div>
+        </section>
+
+
     </main>
 
     <footer id="contact">
